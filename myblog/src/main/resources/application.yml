@@ -1,0 +1,22 @@
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+server:
+  port: 442
+  ssl: # ssl相关配置
+    enabled: true
+    key-store: classpath:nonamecat.com.jks
+#    key-store: nonamecat.com.jks
+    key-store-password: 9z93787e900b
+    key-store-type: JKS
+
+http-port: 8081 # http重定向https配置
+
+
+markerhub:
+  jwt:
+    secret: f4e2e52034348f86b67cde581c0f9eb5
+    expire: 604800
+    header: Authorization
+spring:
+  resources:
+    static-locations: classpath:/templates/,classpath:/static/img/

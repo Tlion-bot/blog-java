@@ -39,7 +39,7 @@ public class CodeGenerator {
         // 代码生成器
         AutoGenerator mpg = new AutoGenerator();
 
-        // 全局配置
+        // 全局配置a
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
         gc.setOutputDir(projectPath + "/src/main/java");

@@ -21,3 +21,14 @@ markerhub:
 spring:
   resources:
     static-locations: classpath:/templates/,classpath:/static/img/
+
+upload:
+  path: F:\self\test_resources\
+
+#文件上传路径
+file:
+  upload:
+    abpath: F:/note/
+    urlpath: /note/**
+    mdImageDir: /note/assets/
+

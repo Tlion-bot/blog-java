@@ -28,6 +28,7 @@ public class FileUtil {
         boolean flag = true;
         BufferedReader bufferedReader = null;
         BufferedWriter bufferedWriter = null;
+
         try {
             File distFile = new File(filePath);
             if (!distFile.getParentFile().exists()) distFile.getParentFile().mkdirs();
